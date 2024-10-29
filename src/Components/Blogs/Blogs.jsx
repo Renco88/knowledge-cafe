@@ -13,7 +13,7 @@ const Blogs = ({ handleAssToBookmark,handleMarkAsRead }) => {
   }, []);
   return (
     <div className="w-2/3">
-      <h1 className="text-4xl">Blogs: {blogs.length}</h1>
+      <h1 className="text-4xl m-5 bg-[#6047EC1A] text-center rounded-lg text-[#6047EC] border-r border-s-blue-500">Blogs: {blogs.length}</h1>
       {blogs.map((blog) => (
         <Blog
           key={blog.id}
